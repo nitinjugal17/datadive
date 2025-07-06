@@ -1,0 +1,52 @@
+
+[
+  {
+    "id": "population-data-template-1",
+    "name": "Sales & Population Analysis",
+    "description": "A starter template for analyzing sales and demographic data.",
+    "filters": [],
+    "columnMaps": {
+      "Sales_Q1": {
+        "Region": "Region",
+        "Sale_Date": "Date",
+        "Sale_Amount": "Amount"
+      },
+      "Sales_Q2": {
+        "Region": "Region",
+        "Sale_Date": "Date",
+        "Sale_Amount": "Amount"
+      }
+    },
+    "chartConfigs": [
+      {
+        "id": "bar-template-1",
+        "type": "bar",
+        "title": "Sales by Region",
+        "size": "medium",
+        "config": {
+          "xAxis": "Region",
+          "yAxis": "Amount"
+        }
+      }
+    ],
+    "originalHeaders": [
+      "Product ID",
+      "Item Name",
+      "Sale_Date",
+      "Sale_Amount",
+      "Region",
+      "Neighborhood",
+      "Preference_Type",
+      "Users",
+      "Stock ID",
+      "Product Name",
+      "Items In Stock",
+      "Age",
+      "Sex",
+      "Population",
+      "Population_Density",
+      "Preference_Score",
+      "Average_Income"
+    ]
+  }
+]
